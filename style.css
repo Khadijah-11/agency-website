@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+            background-color: burlywood;
+            margin: 0px;
+}
+header{
+    background-color: rgb(90, 82, 82);
+    text-align: center;
+    padding: 10px;
+}
+.container {
+    display: flex;
+    border: 10px solid black;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+ h1 {
+            color: white;
+            text-align: center;
+        }
+
+#box1{
+    width: 250px;
+    height: 250px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(182, 67, 67);
+    animation-name: slideUp;
+    animation-duration: 2s;
+}
+@keyframes slideleft{
+    from{transform: translateX(100%)}
+}
+@keyframes slideright{
+    to{transform: translateX(100%)}
+}
+@keyframes slideUp{
+    from{transform: translateY(100%)}
+}
+
+footer{
+    display: block;
+    clear: both;
+    background-color: rgb(90, 82, 82);
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+@media screen and (max-width: 600px){
+    aside, section, article{
+        width: 100%;
+    }
+    
+}
+        
+        
