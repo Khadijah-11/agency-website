@@ -4,6 +4,13 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+.centered-left-image {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    transform: translateY(-50%);
+    max-width: 100px; 
+}
 body.home-page {
     background-color: #141414;
 }
@@ -57,7 +64,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-weight: bold;
+    
 }
 
 .get-in-touch {
@@ -67,9 +74,73 @@ nav ul li a {
     background-color: #ffffff;
     color: #000000;
     padding: 0.5em 1em;
-    border-radius: 8px;
+    border-radius: 23px;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
 }
+.main-section {
+    display: flex;
+    align-items: flex-center;
+    justify-content: space-between;
+    padding: 2em 0;
+    position: relative;
+}
+.left-content {
+    flex: 1;
+    z-index: 1;
+    color: #fff;
+    margin-right: 2em;
+}
+.left-content h1 {
+    font-size: 3.2em;
+    margin-bottom: 1em;
+}
+.highlight {
+    color: #64CCC5; 
+}
+.btn {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+}
 
+.btn .icon {
+    margin-right: 0.5em;
+    max-height: 20px; 
+}
+.left-content h2 {
+    margin-top: 12em;
+    font-size: 1em;
+    margin-bottom: 1em;
+    color: #64CCC5;
+    
+}
+.image-grid {
+    display: flex;
+    gap: 0.8em;
+}
+.image-grid img {
+    width: 25%;
+    height: auto;
+    border-radius: 8px;
+}
+.right-content {
+    flex: 1.5;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.big-image {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    object-fit: cover;
+    margin-left: auto;
+}
