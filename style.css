@@ -18,7 +18,7 @@ body.home-page {
     max-width: 900px; 
     margin: 0 auto;
     padding: 0 30px; 
-}
+} 
 
 .container {
     display: flex;
@@ -80,20 +80,24 @@ nav ul li a {
     font-weight: bold;
 }
 .main-section {
-    display: flex;
-    align-items: flex-center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
     padding: 2em 0;
     position: relative;
+    gap: 4em;
+    
 }
 .left-content {
     flex: 1;
+    position: relative;
     z-index: 1;
     color: #fff;
-    margin-right: 2em;
+    
+    
 }
 .left-content h1 {
-    font-size: 3.2em;
+    font-size: 3.5em;
     margin-bottom: 1em;
 }
 .highlight {
@@ -132,15 +136,20 @@ nav ul li a {
     border-radius: 8px;
 }
 .right-content {
-    flex: 1.5;
+    flex: none;
+    position: absolute; 
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     
 }
 .big-image {
-    width: 100%;
+    width: 80%;
     max-width: none;
     height: auto;
     object-fit: cover;
-    margin-left: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
 }
