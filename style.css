@@ -164,9 +164,9 @@ nav ul li a {
 
 .footer-top {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
     gap: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .logo-container {
@@ -189,9 +189,20 @@ nav ul li a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3em;
+    width: 100%;
+}
 
+.footer-section.pages {
+    margin-left: 3em; /* Add margin to the left of the pages list section */
+}
 .footer-logo p {
     margin: 0; 
+    flex-grow: 1;
+    margin-top: 1em;
 }
 
 
@@ -215,27 +226,37 @@ nav ul li a {
 }
 
 .subscribe-form {
+    position: relative; /* Make the container relative */
     display: flex;
     align-items: center;
-    gap: 0.5em; /* Add space between input and button */
+    width: 100%;
 }
 
 .subscribe-form input[type="email"] {
-    padding: 0.5em;
-    border-radius: 8px;
+    flex: 1;
+    padding: 0.5em 2em 0.5em 0.5em; /* Add right padding to make space for the button */
+    border-radius: 23px;
     border: none;
-    flex: 1; /* Allow input to take remaining space */
+    box-sizing: border-box; /* Ensure padding is included in the element's width and height */
+   
+}   
+.subscribe-form input[type="email"]::placeholder {
+    padding-left: 0; /* Remove left padding from placeholder text */
 }
-
 .subscribe-form .btn {
-    background-color: #ffffff;
-    color: #000000;
+    position: absolute; /* Position the button inside the input */
+    right: 0; /* Align to the right edge of the input */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust vertical centering */
+    background-color: #1f1e1e;
+    color: #ffffff;
     padding: 0.5em 1em;
-    border-radius: 8px;
+    border-radius: 23px;
     text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    margin-left: 0.5em; /* Add space between input and button */
+    font-size: 11px;
+    border: none; 
+    cursor: pointer; 
+    margin-right: 0.5em; /* Add margin to the right for spacing */
 }
 
 .footer-bottom {
@@ -249,7 +270,7 @@ nav ul li a {
 
 .footer-info, .footer-contact, .footer-address, .social-media {
     flex: 1;
-    min-width: 150px; /* Ensure elements have minimum width */
+    min-width: 150px; 
 }
 
 .footer-info p, .footer-contact p, .footer-address p {
@@ -273,6 +294,6 @@ nav ul li a {
 }
 
 .social-media img {
-    max-height: 20px;
-    filter: brightness(0) invert(1);
+    max-height: 35px;
+
 }
