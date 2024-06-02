@@ -15,7 +15,7 @@ body.home-page {
     background-color: #141414;
 }
 .wrapper {
-    max-width: 900px; 
+    max-width: 950px; 
     margin: 0 auto;
     padding: 0 30px; 
 } 
@@ -93,6 +93,7 @@ nav ul li a {
     position: relative;
     z-index: 1;
     color: #fff;
+    margin-right: 2em;
     
     
 }
@@ -120,7 +121,7 @@ nav ul li a {
     max-height: 20px; 
 }
 .left-content h2 {
-    margin-top: 12em;
+    margin-top: 5em;
     font-size: 1em;
     margin-bottom: 1em;
     color: #64CCC5;
@@ -136,20 +137,142 @@ nav ul li a {
     border-radius: 8px;
 }
 .right-content {
+    position: relative; 
     flex: none;
-    position: absolute; 
-    width: 100%;
+    width: 100%; 
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: top;
     
 }
 .big-image {
-    width: 80%;
+    width: 200%; 
     max-width: none;
     height: auto;
     object-fit: cover;
     position: absolute;
-    right: 0;
+    right: -50%;
     top: 0;
     z-index: 0;
+}
+.footer {
+    background-color: #141414;
+    color: #fff;
+    padding: 2em;
+    font-family: Roboto, serif;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2em;
+    margin-bottom: 2em;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 1.5em; 
+    margin-top: 1.5em;
+}
+
+.footer-logo img {
+    filter: brightness(0) invert(1);
+    max-height: 30px; 
+    margin-right: 10px; 
+}
+
+.company-name {
+    color: #fff;
+    font-size: 1.5em; 
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.footer-logo p {
+    margin: 0; 
+}
+
+
+.footer-section h4 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.5em;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    gap: 0.5em; /* Add space between input and button */
+}
+
+.subscribe-form input[type="email"] {
+    padding: 0.5em;
+    border-radius: 8px;
+    border: none;
+    flex: 1; /* Allow input to take remaining space */
+}
+
+.subscribe-form .btn {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 0.5em; /* Add space between input and button */
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the top */
+    padding-top: 1em;
+    flex-wrap: wrap;
+    gap: 2em; /* Add gap for spacing */
+}
+
+.footer-info, .footer-contact, .footer-address, .social-media {
+    flex: 1;
+    min-width: 150px; /* Ensure elements have minimum width */
+}
+
+.footer-info p, .footer-contact p, .footer-address p {
+    margin: 0;
+}
+
+.footer-info p:first-of-type, .footer-contact p:first-of-type, .footer-address p:first-of-type {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.footer-contact a {
+    color: #64CCC5;
+    text-decoration: none;
+}
+
+.social-media {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+}
+
+.social-media img {
+    max-height: 20px;
+    filter: brightness(0) invert(1);
 }
