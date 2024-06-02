@@ -159,7 +159,7 @@ nav ul li a {
     background-color: #141414;
     color: #fff;
     padding: 2em;
-    font-family: Roboto, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;;
 }
 
 .footer-top {
@@ -202,7 +202,8 @@ nav ul li a {
 .footer-logo p {
     margin: 0; 
     flex-grow: 1;
-    margin-top: 1em;
+    margin-top: 0.5em;
+    font-family: Roboto, sans-serif;
 }
 
 
@@ -223,6 +224,7 @@ nav ul li a {
 .footer-section ul li a {
     color: #fff;
     text-decoration: none;
+    font-family: Roboto, sans-serif;
 }
 
 .subscribe-form {
@@ -275,6 +277,7 @@ nav ul li a {
 
 .footer-info p, .footer-contact p, .footer-address p {
     margin: 0;
+    
 }
 
 .footer-info p:first-of-type, .footer-contact p:first-of-type, .footer-address p:first-of-type {
