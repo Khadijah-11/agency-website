@@ -88,7 +88,7 @@ nav ul li a {
     gap: 4em;
     
 }
-.left-content {
+.left-homecontent {
     flex: 1;
     position: relative;
     z-index: 1;
@@ -97,7 +97,7 @@ nav ul li a {
     
     
 }
-.left-content h1 {
+.left-homecontent h1 {
     font-size: 3.5em;
     margin-bottom: 1em;
 }
@@ -120,7 +120,7 @@ nav ul li a {
     margin-right: 0.5em;
     max-height: 20px; 
 }
-.left-content h2 {
+.left-homecontent h2 {
     margin-top: 5em;
     font-size: 1em;
     margin-bottom: 1em;
@@ -136,7 +136,7 @@ nav ul li a {
     height: auto;
     border-radius: 8px;
 }
-.right-content {
+.right-homecontent {
     position: relative; 
     flex: none;
     width: 100%; 
@@ -236,7 +236,7 @@ nav ul li a {
 
 .subscribe-form input[type="email"] {
     flex: 1;
-    padding: 0.5em 2em 0.5em 0.5em; /* Add right padding to make space for the button */
+    padding: 1em 8em 1em 1.5em; /* Add right padding to make space for the button */
     border-radius: 23px;
     border: none;
     box-sizing: border-box; /* Ensure padding is included in the element's width and height */
@@ -244,6 +244,7 @@ nav ul li a {
 }   
 .subscribe-form input[type="email"]::placeholder {
     padding-left: 0; /* Remove left padding from placeholder text */
+    font-size: 15px;
 }
 .subscribe-form .btn {
     position: absolute; /* Position the button inside the input */
@@ -252,7 +253,7 @@ nav ul li a {
     transform: translateY(-50%); /* Adjust vertical centering */
     background-color: #1f1e1e;
     color: #ffffff;
-    padding: 0.5em 1em;
+    padding: 01em 1em;
     border-radius: 23px;
     text-decoration: none;
     font-size: 11px;
