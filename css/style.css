@@ -449,4 +449,69 @@ nav ul li a {
     margin-right: 0.5em;
     max-height: 20px;
 }
+.process-section {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 4em 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.process-container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 2em;
+}
+
+.process-heading h5 {
+    font-size: 1.2em;
+    color: #64CCC5;
+    margin-bottom: 0.5em;
+}
+
+.process-heading h2 {
+    font-size: 2.5em;
+    margin-bottom: 2em;
+}
+
+.process-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns grid */
+    gap: 2em;
+    align-items: stretch;
+}
+
+.process-box {
+    background-color: #f7f7f7;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.process-box img {
+    width: 50px;
+    margin-bottom: 1em;
+}
+
+.process-box h4 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #141414;
+}
+
+.process-box p {
+    font-size: 1em;
+    color: #242323;
+}
+
+
 
