@@ -301,3 +301,63 @@ nav ul li a {
     max-height: 35px;
 
 }
+.our-services {
+    width: 100%;
+    text-align: center;
+    padding: 4em 2em;
+    background-color: #ffffff; 
+    box-sizing: border-box;
+}
+
+.section-heading h5 {
+    font-size: 1.2em;
+    color: #64CCC5; 
+    margin-bottom: 0.5em;
+}
+
+.section-heading h2 {
+    font-size: 2.5em;
+    margin-bottom: 2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns grid */
+    gap: 2em; /* Gap between grid items */
+}
+.service-box-1 {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+.service-box-1 h4,
+.service-box-1 p {
+    color: #ffffff !important;
+}
+
+.service-box {
+    background-color: #f7f7f7; /* Optional background color for boxes */
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Align text to the left inside boxes */
+    font-family: 'Times New Roman', Times, serif
+    
+}
+
+.service-box img {
+    max-width: 40px;
+    margin-bottom: 1em;
+}
+
+.service-box h4 {
+    font-size: 1.4em;
+    margin-bottom: 0.5em;
+    color: #141414;
+}
+
+.service-box p {
+    font-size: 0.8em;
+    color: #242323;
+    font-family: DM Sans, sans-serif;
+}
