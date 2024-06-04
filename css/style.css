@@ -108,7 +108,7 @@ nav ul li a {
     background-color: #ffffff;
     color: #000000;
     padding: 0.5em 1em;
-    border-radius: 8px;
+    border-radius: 23px;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
@@ -313,6 +313,7 @@ nav ul li a {
     font-size: 1.2em;
     color: #64CCC5; 
     margin-bottom: 0.5em;
+    margin-top: 0.5em;
 }
 
 .section-heading h2 {
@@ -336,7 +337,7 @@ nav ul li a {
 }
 
 .service-box {
-    background-color: #f7f7f7; /* Optional background color for boxes */
+    background-color: #f7f7f7; 
     padding: 2em;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -361,3 +362,91 @@ nav ul li a {
     color: #242323;
     font-family: DM Sans, sans-serif;
 }
+.about-us-section {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 4em 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    width: 100%;
+    gap: 2em;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
+.about-us-image {
+    flex: 0 0 50%; /* Take 60% of the container */
+}
+
+.about-us-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.about-us-content {
+    flex: 0 0 50%; /* Take the remaining 60% of the container */
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about-us-content h5 {
+    font-size: 1.2em;
+    margin-bottom: 0.2em;
+    color: #64CCC5;
+}
+
+.about-us-content h3 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.about-us-content p {
+    font-size: 0.8em;
+    margin-bottom: 1em;
+    font-family: DM Sans, sans-serif;
+}
+
+.about-us-stats {
+    display: flex;
+    gap: 2em;
+    margin-bottom: 1em;
+}
+
+.stat-item h4 {
+    font-size: 1.5em !important; /* Add !important to ensure it takes precedence */
+    margin: 0;
+    color: #64CCC5;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.stat-item p {
+    font-size: 0.8em;
+    margin: 0;
+}
+
+.cta-button {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0.5em 1em;
+    border-radius: 23px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+}
+
+.cta-button .icon {
+    margin-right: 0.5em;
+    max-height: 20px;
+}
+
