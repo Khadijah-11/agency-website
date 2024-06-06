@@ -1,24 +1,16 @@
-body {
-    font-family: Roboto, serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .centered-left-image {
     position: absolute;
-    left: 0;
-    top: 30%;
-    transform: translateY(-50%);
-    max-width: 100px; 
+    top: -15; /* Adjust as needed to position the image higher */
+    left: -230px; /* Adjust as needed to position the image further left */
+    width: 150px; /* Adjust the width as needed */
+    height: auto; 
+    z-index: -1; /* Place the image behind other content */
 }
 body.home-page {
     background-color: #141414;
 }
-.wrapper {
-    max-width: 950px; 
-    margin: 0 auto;
-    padding: 0 30px; 
-} 
+
 
 .container {
     display: flex;
@@ -137,22 +129,19 @@ nav ul li a {
     border-radius: 8px;
 }
 .right-homecontent {
-    position: relative; 
-    flex: none;
-    width: 100%; 
+    position: relative;
+    flex: 1;
     display: flex;
     justify-content: flex-end;
-    align-items: top;
-    
+    align-items: flex-start;
 }
-.big-image {
-    width: 200%; 
-    max-width: none;
+
+.homepage-office {
+    width: 130%; /* Adjust width as needed */
     height: auto;
-    object-fit: cover;
     position: absolute;
-    right: -50%;
-    top: 0;
+    left: -20%; /* Adjust to position within the container */
+    top: -10%; /* Adjust to position higher */
     z-index: 0;
 }
 .footer {
