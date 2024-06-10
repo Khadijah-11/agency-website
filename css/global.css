@@ -57,3 +57,25 @@ body {
 .white-background {
     background-color: #fff; 
 }
+.btn {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0.5em 1em;
+    border-radius: 23px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+}
+.btn.black{
+    background-color: #000000;
+    color: #ffffff;
+}
+.black-icon {
+    background-color: #ffffff;
+}
+
+.black-icon img {
+    filter: invert(1);
+}
