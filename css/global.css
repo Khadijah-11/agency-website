@@ -71,6 +71,9 @@ body {
 .btn.black{
     background-color: #000000;
     color: #ffffff;
+    margin-bottom: 3em;
+    margin-left: 28em;
+    
 }
 .black-icon {
     background-color: #ffffff;
