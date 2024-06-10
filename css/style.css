@@ -333,7 +333,7 @@ nav ul li a {
     background-color: #f7f7f7; 
     padding: 2em;
     border-radius: 8px;
-    text-align: left; /* Align text to the left inside boxes */
+    text-align: left; 
     font-family: 'Times New Roman', Times, serif
     
 }
@@ -372,7 +372,7 @@ nav ul li a {
 }
 
 .about-us-image {
-    flex: 0 0 50%; /* Take 60% of the container */
+    flex: 0 0 50%; 
 }
 
 .about-us-image img {
@@ -485,5 +485,55 @@ nav ul li a {
     width: 100%; 
     height: 50%; 
 }
+.testimonial-section {
+    text-align: center;
+    padding: 2em;
+    margin: 0 auto;
+    background-color: #ffffff; 
+    
+}
+.wrapper-testimonial {
+    max-width: 1400px;
+    border-radius: 0;
+    border-radius: 10px 10px 0 0;
+    background-color: #f0f0f0;
+    padding: 2em;
+    margin-left: 28em;
+}
+
+.testimonial-image {
+    width: 150px;  
+    height: 150px;  
+    border-radius: 50%;  
+    object-fit: cover;
+    margin-bottom: 1em;
+}
+
+.testimonial-quote {
+    font-style: italic;
+    margin: 1em 0;
+    padding: 0 1em;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.testimonial-name {
+    font-weight: bold;
+    margin: 0.5em 0;
+    font-size: 1.2em;
+
+}
+
+.testimonial-position {
+    color: #000000;  
+    margin-bottom: 1em;
+}
+
+.testimonial-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
 
 

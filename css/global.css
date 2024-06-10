@@ -82,3 +82,11 @@ body {
 .black-icon img {
     filter: invert(1);
 }
+
+
+.white-background-small {
+    background-color: #fff; 
+}
+.white-background-small img {
+    filter: invert(1);
+}
