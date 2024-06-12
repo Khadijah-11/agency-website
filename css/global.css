@@ -3,10 +3,13 @@ body {
     font-family: Roboto, serif;
     margin: 0;
     padding: 0;
+    width: 1921px;
+    height: 1041px;
+    
   }
   
 .wrapper {
-    max-width: 1600px;
+    width: 1400px;
     margin: 0 auto;
     padding: 0 40px; 
     box-sizing: border-box;
