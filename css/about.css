@@ -1,15 +1,8 @@
-body {
+body.about-us-page {
     background-color: #ffffff;
     font-family: Roboto, serif;
     margin: 0;
     padding: 0;
-}
-
-.wrapper {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 40px; 
-    box-sizing: border-box;
 }
 
 .header-inverse {
@@ -18,8 +11,6 @@ body {
 }
 
 .main-header {
-    background-color: #ffffff;
-    color: #000000;
     padding: 1em 0;
 }
 
@@ -28,11 +19,14 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 2em;
+    height: 40px;
+    /*flex-wrap: wrap;*/
 }
 
 .logo {
     display: flex;
     align-items: center;
+    
 }
 
 .logo img {
@@ -42,14 +36,15 @@ body {
 
 .logo .company-name {
     color: #000;
-    font-size: 1.5em; 
+    font-size: 1.5em;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 nav {
     flex: 1;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul {
@@ -69,7 +64,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-.get-in-touch {
+.get-in-touch{
     text-align: right;
 }
 
@@ -82,26 +77,29 @@ nav ul li a {
     font-size: 16px;
     font-weight: bold;
 }
-.about-section.wrapper {
-    display: flex;
-    background-color: #000000;
-    color: #ffffff;
-    
-    border-radius: 10px;
-}
 
 .about-section {
     background-color: #ffffff;
     padding: 2em 0;
-    gap: 2em;
+}
+
+.about-wrapper {
+    display: flex;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2em;
+    border-radius: 10px;
     box-sizing: border-box;
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0 40px; 
 }
 
 .left-about-content {
     flex: 1;
-    color: #000;
+    color: #ffffff;
     margin-right: 2em;
-    
+    width: 50%;
 }
 
 .left-about-content .small-sentence {
@@ -123,26 +121,46 @@ nav ul li a {
     align-items: center;
 }
 
-.rater-image {
+.rating .rater-image {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     margin-right: 10px;
 }
 
-.stars img {
-    width: 100%;
-    
+.rating .rating-details {
+    display: flex;
+    flex-direction: column;
 }
 
-.right-about-content {
+.rating .stars img {
+    width: auto;
+    height: 20px;
+}
 
+
+.right-about-content {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 50%;
+    position: relative;
 }
 
-.right-about-content .about-us-image {
-    width: 100%;
-    height: auto;
+.image-wrapper {
+    position: relative;
+}
+
+.about-us-image.first-image {
+    position: relative;
+    z-index: 1;
+    max-width: 100%; /* Ensure the image scales within its container */
+}
+
+.about-us-image.second-image {
+    position: absolute;
+    top: 65px; /* Adjust as needed for overlap effect */
+    left: 100px; /* Adjust as needed for overlap effect */
+    z-index: 2;
+    max-width: 100%; /* Ensure the image scales within its container */
 }
