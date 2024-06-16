@@ -78,7 +78,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-.about-section {
+.about-main-section {
     background-color: #ffffff;
     padding: 2em 0;
 }
@@ -145,22 +145,203 @@ nav ul li a {
     align-items: center;
     width: 50%;
     position: relative;
+    height: auto;
 }
 
 .image-wrapper {
     position: relative;
+    width: 100%;
+    height: auto;
+    
 }
 
 .about-us-image.first-image {
     position: relative;
     z-index: 1;
-    max-width: 100%; /* Ensure the image scales within its container */
+    width: 75%; 
+    top: 20px;
+    left: 60px;
+    
 }
-
 .about-us-image.second-image {
     position: absolute;
-    top: 65px; /* Adjust as needed for overlap effect */
-    left: 100px; /* Adjust as needed for overlap effect */
+    top: 60px; 
+    left: 140px; 
     z-index: 2;
-    max-width: 100%; /* Ensure the image scales within its container */
+    width: 80%; 
+}
+.services-section {
+    background-color: #ffffff;
+    padding: 2em 0;
+    box-sizing: border-box;
+}
+
+.services-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.service-box {
+    background-color: #ffffff;
+    padding: 2em;
+    text-align: center;
+    margin: 0.5em;
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+}
+
+.statistic-number {
+    font-size: 2.5em;
+    color: #000000;
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.service-title {
+    font-size: 1.5em;
+    color: #000;
+    margin-bottom: 0.5em;
+}
+
+.service-description {
+    font-size: 1em;
+    color: #666;
+}
+.about-section {
+    background-color: #000000;
+    padding: 2em 0;
+    box-sizing: border-box;
+}
+
+.about-section-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.left-about-content {
+    flex: 0 0 40%;
+    padding: 1em;
+}
+
+.right-about-content {
+    flex: 0 0 60%;
+    position: relative;
+    padding: 1em;
+}
+
+.small-colored-heading {
+    color: #64CCC5; /* Example color */
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+.big-heading {
+    font-size: 3em;
+    margin-bottom: 1em;
+    color: #ffffff;
+}
+
+.small-paragraph {
+    margin-bottom: 1em;
+    color: #ffffff;
+}
+
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    margin-bottom: 1em;
+}
+
+.feature-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5em;
+}
+
+.feature-text {
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.image-wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.about-us-image {
+    width: 100%;
+    height: auto;
+}
+
+.first-image {
+    width: 30%; /* Adjust width as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.second-image {
+    width: 20%; /* Adjust width as needed */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.statistic-numbers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px; /* Adjust as needed */
+}
+
+.statistic-box {
+    text-align: center;
+}
+
+.statistic-number {
+    font-size: 2.5em;
+    color: #000000;
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 60px; /* Adjust height as needed */
+    background-color: #cccccc;
+    margin: 0 1em;
+}
+
+.team-box {
+    position: absolute;
+    top: 0;
+    right: 50%; /* Adjust position as needed */
+    background-color: #ffffff;
+    padding: 1em;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.team-title {
+    font-size: 1em;
+    color: #000000;
+    margin-bottom: 0.5em;
+}
+
+.team-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
