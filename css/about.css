@@ -219,6 +219,7 @@ nav ul li a {
 .about-section-wrapper {
     display: flex;
     width: 1400px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 40px; 
     justify-content: space-between;
@@ -375,3 +376,116 @@ nav ul li a {
     max-width: 300px; /* Adjust max-width as needed */
     border-radius: 23px; /* Apply border radius to match the team-box */
 }
+
+.our-team-section {
+    background-color: #ffffff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.team-heading {
+    font-size: 2em;
+    color: #000000;
+    margin-bottom: 1em;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.team-member {
+    position: relative;
+    width: 30%;
+    max-width: 300px;
+    text-align: center;
+}
+
+.team-member-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5em;
+}
+
+.team-member-name {
+    font-size: 1.2em;
+    color: #000000;
+    margin-bottom: 0.3em;
+}
+
+.team-member-role {
+    font-size: 1em;
+    color: #666666;
+    margin-bottom: 0.5em;
+}
+
+.social-media-team {
+    position: absolute;
+    top: 0.2em;
+    right: 0.2em;
+    display: flex;
+    gap: 0.5em;
+}
+
+.social-media-team img {
+    max-height: 30px;
+}
+.lets-talk-section {
+    background-color: #ffffff;
+    padding: 4em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-wrapper {
+    position: relative;
+    text-align: center;
+}
+
+.centered-image {
+    max-width: 100%; /* Make sure the image is responsive */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.centered-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+    width: 600px;
+}
+
+.lets-talk-heading {
+    font-size: 2.5em; 
+    margin-bottom: 1em;
+    margin-top: 2em;
+    color: #ffffff; 
+   
+}
+
+.get-in-touch {
+    margin-top: 2em; /* Adjust this to move the button up or down */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+
+.get-in-touch .btn {
+    background-color: #ffffff; /* White background for the button */
+    color: #000000; /* Black text for the button */
+    padding: 0.5em 1em;
+    border-radius: 23px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
