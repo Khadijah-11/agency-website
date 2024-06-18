@@ -218,24 +218,30 @@ nav ul li a {
 
 .about-section-wrapper {
     display: flex;
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0 40px; 
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
 }
 
 .left-about-content {
-    flex: 0 0 40%;
+    flex: 1; /* Allow the left container to take available space */
+    max-width: 40%; /* Max width set to 40% */
     padding: 1em;
 }
 
 .right-about-content {
-    flex: 0 0 60%;
+    flex: 1; /* Allow the right container to take available space */
+    max-width: 60%; /* Max width set to 60% */
     position: relative;
     padding: 1em;
+    box-sizing: border-box;
 }
 
 .small-colored-heading {
-    color: #64CCC5; /* Example color */
+    color: #64CCC5; 
     font-size: 1em;
     margin-bottom: 0.5em;
 }
@@ -274,64 +280,87 @@ nav ul li a {
     color: #ffffff;
 }
 
-.image-wrapper {
+
+.about-us-section-image {
+    width: 100%;
+    height: auto;
+}
+
+.about-us-section-image.first-image {
+    width: 70%; 
     position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.about-us-image {
-    width: 100%;
-    height: auto;
-}
-
-.first-image {
-    width: 30%; /* Adjust width as needed */
-    position: absolute;
     top: 0;
     left: 0;
+    max-width: 250px; 
 }
 
-.second-image {
-    width: 20%; /* Adjust width as needed */
+.about-us-section-image.second-image {
+    width: 20%; 
     position: absolute;
-    bottom: 0;
+    bottom: 0; 
     right: 0;
-}
+    max-width: 300px; 
 
+}
 .statistic-numbers {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 150px; /* Adjust as needed */
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    top: 400px; /* Adjust as needed to be below the first image */
+    left: 0;
+    margin-top: 0em; /* Adjust margin to reduce the gap */
 }
 
 .statistic-box {
     text-align: center;
+    width: 35%;
+    margin: 0; /* Ensure no additional margin */
+}
+
+.statistic-box:first-child {
+    margin-top: -20px; /* Adjust to position the first box higher */
+}
+
+.statistic-box:last-child {
+    margin-top: 40px; /* Adjust to position the second box lower */
 }
 
 .statistic-number {
-    font-size: 2.5em;
-    color: #000000;
+    font-size: 3em;
+    font-style: bold;
+    color: #ffffff;
     display: block;
-    margin-bottom: 0.5em;
+    
 }
 
 .vertical-line {
     width: 1px;
-    height: 60px; /* Adjust height as needed */
-    background-color: #cccccc;
-    margin: 0 1em;
+    height: 100px; 
+    background-color: #646161;
+    margin: 0; 
+    align-self: flex-start; 
+    margin: 1.5em;
 }
+
+.statistic-paragraph {
+    color: #cccccc; 
+    text-align: center;
+    
+}
+
 
 .team-box {
     position: absolute;
-    top: 0;
-    right: 50%; /* Adjust position as needed */
+    top: 30px;
+    left: 43%; /* Adjust position as needed to be next to the first image */
     background-color: #ffffff;
     padding: 1em;
-    border-radius: 50px;
+    border-radius: 23px;
     text-align: center;
+    transform: translateX(-50%);
+    width: 130px;
+    height: 80px;
 }
 
 .team-title {
@@ -341,7 +370,8 @@ nav ul li a {
 }
 
 .team-image {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Adjust max-width as needed */
+    border-radius: 23px; /* Apply border radius to match the team-box */
 }
