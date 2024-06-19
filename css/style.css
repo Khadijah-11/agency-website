@@ -258,10 +258,10 @@ nav ul li a {
 
 
 .project-section {
-    text-align: center;
-    padding: 2em;
+    background-color: #ffffff;
     color: #000000;
-    background-color: #fff;
+    text-align: center;
+    padding: 2em 0;
 }
 
 .section-heading {
@@ -272,26 +272,28 @@ nav ul li a {
 .project-gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 3em; 
-    max-width: 600px; 
-    margin: 0 50px;
-    
+    gap: 3em;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .project-item {
     position: relative;
     text-align: left;
 }
-
-.project-item:nth-child(2n) {
-    margin-top: 4em; 
+.project-item img.project-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
 }
 
-
+.project-item:nth-child(2n) {
+    margin-top: 4em;
+}
 
 .project-info {
-    background: none; 
-    border-radius: 0; 
+    background: none;
+    border-radius: 0;
     padding: 0.5em 0;
 }
 
@@ -327,12 +329,12 @@ nav ul li a {
     
 }
 .wrapper-testimonial {
-    max-width: 1400px;
+    max-width: 1200px;
     border-radius: 0;
     border-radius: 10px 10px 0 0;
     background-color: #f0f0f0;
     padding: 2em;
-    margin-left: 16em;
+    margin-left: 14em;
 }
 
 .testimonial-image {

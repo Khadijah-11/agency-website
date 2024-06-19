@@ -1,0 +1,219 @@
+body.project-page {
+    background-color: #ffffff;
+    font-family: Roboto, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-inverse {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.main-header {
+    padding: 1em 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2em;
+    height: 40px;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo img {
+    max-height: 30px;
+    margin-right: 10px;
+}
+
+.logo .company-name {
+    color: #000;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.get-in-touch{
+    text-align: right;
+}
+
+.get-in-touch .btn {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0.5em 1em;
+    border-radius: 23px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.wrapper-intro {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px; 
+    box-sizing: border-box;
+    background-color: #000000; 
+    color: #ffffff; 
+    border-radius: 23px; 
+    padding: 4em 0;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro-heading {
+    font-size: 5em;
+    margin: 0;
+    align-items: center;
+}
+.project-section {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.section-heading {
+    font-size: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+.project-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.project-item {
+    position: relative;
+    text-align: left;
+}
+.project-item img.project-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures the images cover the container without distortion */
+}
+
+.project-item:nth-child(2n) {
+    margin-top: 4em;
+}
+
+.project-info {
+    background: none;
+    border-radius: 0;
+    padding: 0.5em 0;
+}
+
+.project-info h3 {
+    margin: 0.5em 0;
+}
+
+.project-info p {
+    margin: 0.5em 0 1em;
+}
+.icon-small-container-centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px; 
+    height: 50px; 
+    background-color: #000;
+    border-radius: 50%;
+}
+.icon-small-container-centered img {
+    width: 100%; 
+    height: 50%; 
+}
+.lets-talk-section {
+    background-color: #ffffff;
+    padding: 4em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-wrapper {
+    position: relative;
+    text-align: center;
+}
+
+.centered-image {
+    max-width: 100%; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.centered-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+    width: 600px;
+}
+
+.lets-talk-heading {
+    font-size: 2.5em; 
+    margin-bottom: 1em;
+    margin-top: 2em;
+    color: #ffffff; 
+   
+}
+
+.get-in-touch {
+    margin-top: 2em; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+
+.get-in-touch .btn {
+    background-color: #ffffff; /* White background for the button */
+    color: #000000; /* Black text for the button */
+    padding: 0.5em 1em;
+    border-radius: 23px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+}
