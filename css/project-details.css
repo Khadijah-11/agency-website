@@ -111,6 +111,7 @@ nav ul li a {
     margin: 0 auto;
     padding: 0 40px;
     box-sizing: border-box;
+    left: 120px; 
 }
 
 .black-box {
@@ -122,6 +123,7 @@ nav ul li a {
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
 }
 
 .box-title {
