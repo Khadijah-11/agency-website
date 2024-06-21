@@ -1,0 +1,246 @@
+body.contact-page {
+    background-color: #ffffff;
+    font-family: Roboto, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-inverse {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.main-header {
+    padding: 1em 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2em;
+    height: 40px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo img {
+    max-height: 30px;
+    margin-right: 10px;
+}
+
+.logo .company-name {
+    color: #000;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.get-in-touch{
+    text-align: right;
+}
+
+.get-in-touch .btn {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0.5em 1em;
+    border-radius: 23px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left-side {
+    flex: 1;
+    padding: 2em;
+}
+
+.left-side h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    position: relative;
+    top: -0.5em; /* Move the header up */
+}
+
+.left-side p {
+    margin-bottom: 1em;
+}
+
+.grey-line {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 1em 0;
+    width: 70%;
+}
+
+.contact-info {
+    margin-bottom: 1em;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.icon-medium-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;  
+    height: 40px; 
+    background-color: #000; 
+    border-radius: 50%; 
+    margin-right: 1em;
+}
+
+.icon-medium-container img {
+    width: 80%; 
+    height: 50%; 
+}
+
+.contact-text h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.contact-text p {
+    margin: 0;
+}
+
+.social-media {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+}
+
+.social-media img {
+    max-height: 35px;
+}
+
+.right-side {
+    flex: 1;
+    background-color: #f5f5f5; /* Background for the entire right side */
+    padding: 2em;
+    border-radius: 10px;
+    margin-top: 2em; /* Aligns with the left side heading */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5; /* Same grey background for the form */
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    margin-bottom: 1em; /* Space between name/lastname and email/phone */
+}
+
+.form-group {
+    flex: 1;
+    position: relative;
+}
+
+.form-label {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.form-input {
+    width: 100%;
+    padding: 1.5em; /* Increased padding for larger input space */
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #f5f5f5; /* Background for the inputs */
+}
+
+.input-line {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    position: absolute;
+    bottom: -5px; /* Positioning the line a bit lower for spacing */
+    width: 100%;
+}
+
+textarea.form-input {
+    resize: none;
+    height: 80px; /* Reduced height to align the container */
+    padding: 1.5em; /* Increased padding for the textarea */
+}
+
+.get-in-touch {
+    text-align: left; /* Align button to the left */
+    margin-top: 2em; /* Add space above the button */
+}
+
+.get-in-touch .btn {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0.5em 1em;
+    border-radius: 23px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+
+.map-section {
+    padding: 2em 0;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
