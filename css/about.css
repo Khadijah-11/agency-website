@@ -87,12 +87,11 @@ nav ul li a {
     display: flex;
     background-color: #000000;
     color: #ffffff;
-    padding: 2em;
     border-radius: 10px;
-    box-sizing: border-box;
+
     width: 1400px;
     margin: 0 auto;
-    padding: 0 40px; 
+    padding: 2em;
 }
 
 .left-about-content {
@@ -173,14 +172,15 @@ nav ul li a {
 .services-section {
     background-color: #ffffff;
     padding: 2em 0;
-    box-sizing: border-box;
+
 }
 
 .services-wrapper {
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    align-items: center;
+    width: 1400px; 
+    margin: 0 auto; 
 }
 
 .service-box {
@@ -193,7 +193,7 @@ nav ul li a {
     max-width: 300px;
 }
 
-.statistic-number {
+.statistic-number1 {
     font-size: 2.5em;
     color: #000000;
     display: block;
@@ -213,7 +213,7 @@ nav ul li a {
 .about-section {
     background-color: #000000;
     padding: 2em 0;
-    box-sizing: border-box;
+
     height: 700px;
 }
 
@@ -239,7 +239,7 @@ nav ul li a {
     max-width: 50%; 
     position: relative;
     padding: 1em;
-    box-sizing: border-box;
+
 }
 .squeezed-content {
     max-width: 80%; 

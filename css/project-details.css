@@ -91,7 +91,7 @@ nav ul li a {
     max-width: 100%;
     margin: 0 auto;
     padding: 0 40px;
-    box-sizing: border-box;
+
     position: relative;
 }
 
@@ -110,7 +110,7 @@ nav ul li a {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 40px;
-    box-sizing: border-box;
+
     left: 120px; 
 }
 
@@ -119,7 +119,7 @@ nav ul li a {
     color: #fff;
     padding: 1em;
     width: 20%;
-    box-sizing: border-box;
+
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

@@ -73,7 +73,7 @@ nav ul li a {
     align-items: start;
     padding: 2em 0;
     gap: 2em;
-    box-sizing: border-box;
+
     
 }
 .main-section .wrapper{
@@ -133,7 +133,7 @@ nav ul li a {
     text-align: center;
     padding: 4em 2em;
     background-color: #ffffff; 
-    box-sizing: border-box;
+
 }
 
 .section-heading h5 {
@@ -326,6 +326,8 @@ nav ul li a {
     padding: 2em;
     margin: 0 auto;
     background-color: #ffffff; 
+    display: flex;
+    justify-content: center;
     
 }
 .wrapper-testimonial {
@@ -334,7 +336,7 @@ nav ul li a {
     border-radius: 10px 10px 0 0;
     background-color: #f0f0f0;
     padding: 2em;
-    margin-left: 14em;
+    
 }
 
 .testimonial-image {

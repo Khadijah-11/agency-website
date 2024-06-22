@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+
 body {
     background-color: black;
     font-family: Roboto, serif;
@@ -7,7 +12,7 @@ body {
     
     
   }
-  .highlight {
+.highlight {
     color: #64CCC5; 
 }
   
@@ -15,7 +20,7 @@ body {
     width: 1400px;
     margin: 0 auto;
     padding: 0 40px; 
-    box-sizing: border-box;
+
 }
 
 .footer {
@@ -107,7 +112,7 @@ body {
     padding: 1em 8em 1em 1.5em; /* Add right padding to make space for the button */
     border-radius: 23px;
     border: none;
-    box-sizing: border-box; /* Ensure padding is included in the element's width and height */
+ /* Ensure padding is included in the element's width and height */
    
 }   
 .subscribe-form input[type="email"]::placeholder {
@@ -232,6 +237,8 @@ body {
     color: #ffffff;
     margin-bottom: 3em;
     margin-left: 28em;
+    height: 30px;
+    width: 170px;
     
 }
 .black-icon {
